@@ -13,7 +13,8 @@ class EmailAddressParser
     @email = email 
   end 
   
-  def parse 
+  def parse
+    @email = @email.gsub()
     
   end 
   
