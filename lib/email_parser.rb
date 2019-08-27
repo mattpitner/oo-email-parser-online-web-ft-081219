@@ -14,7 +14,7 @@ class EmailAddressParser
   end 
   
   def parse
-    @email = @email.gsub()
+    @email = @email.gsub(/[\s,]/, " ")
     
   end 
   
