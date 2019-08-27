@@ -9,6 +9,10 @@ class EmailAddressParser
   
   attr_accessor :email 
   
+  def initaliaze(email)
+    @email = email 
+  end 
+  
   def parse 
     
   end 
